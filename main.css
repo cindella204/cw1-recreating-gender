@@ -1,61 +1,257 @@
 @charset "UTF-8";
 
 html, body {
-    height: 100%
+    height: 100%;
     margin: 0;
     padding: 0;
     }
 
 body {
     background-color: #080808;
-    font-family: Apparat, sans-serif;
+    font-family: semplicitapro, sans-serif;
     color: white;
 }
 
+
+
+/*PROJECT INTRO*/
+
 #title-section {
-    padding-top: 50vh;
     height: 100vh;
     text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    
 }
 
 #title-section h1 {
     font-size: 4em;
+    padding-top: 30vh;
+    margin-bottom: 20px;
+    font-weight: 400;
 }
 
 #title-section h2 {
-    font-size: 3em;
+    font-size: 2.5em;
+    line-height: 110%;
+    font-weight: 400;
 }
 
-#instructions {
-    color: #929feb;
-    font-size= 3em;
+#project-intro {
+    text-align: center;
     margin-bottom: 250px;
-
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 .big-center {
-    text-align: center;
     font-size: 2em;
     margin-bottom: 50px;
-    
+   
 }
 
-i {
-    float: left;
-    padding-right: 5px;
+#warning {
+    color: #929feb;
+    margin-bottom: 40vh;
+}
+
+#project-statement {
+    margin-bottom: 200px;
+    font-size: 1.5em;
+    letter-spacing: 1px;
+}
+
+.blockquote {
+    border-style: solid;
+    border-width: 5px;
+    border-color: #929feb;
+    padding: 50px;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 1.25em;
+    margin-left: -10%;
+    margin-right: -10%;
+    color: #eb92cb;
+    margin-bottom: 200px;
+}
+
+.blockquote-2 {
+    border-style: solid;
+    border-width: 5px;
+    border-color: #929feb;
+    padding: 50px;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 1.6em;
+    margin-left: -10%;
+    margin-right: -10%;
+    color: #92cbeb;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+#what-is-gender h2 {
+    font-size: 2em
+}
+
+#what-is-gender p{
+    font-size: 1.5em;
+    margin-bottom: 50px;
+}
+
+
+
+/*ARTIST FEATURES*/
+
+.artist-intro {
+    max-width: 1500px;
+    margin: auto;
 }
 
 .main-profile-img {
+    max-width: 60vw;
+    max-height: 100vh;
     float: left;
+    margin-right: 3vw;
+    margin-bottom: 50px;
+}
+
+.stats {
+    padding-top: 20vh;
+    padding-left: 10vw;
+    font-size: 1.25em;
+    line-height: 1em;
+}
+
+
+.stats i {
+    float: left;
+    padding-right: 8px;
+    color: #929feb;
+}
+
+.stats a {
+    text-decoration: none;
+    color: #929feb;
+    font-weight: 600;
+}
+
+#graeson-media {
+    padding: 100px 25px 100px 25px;
+    clear: both;
 }
 
 #danica-media {
+    padding: 100px 25px 100px 25px;
+    clear: both;
     background-image: url(assets/danica/danica-bg-sized.png);
     background-position: center;
     background-size: cover;
+    margin-bottom: 100px;
 }
 
+#danica-row-1 {
+    max-height: 610px;
+    width: 100vw;
+    float: left;
+    margin-bottom: 5vw;
+}
 
+#danica-1 {
+    width: 26%;
+    float: left;
+    margin-right: 5%;
+    
+}
 
+#danica-2 {
+    width: 15%;
+    margin-right: 5%;
+}
 
+#danica-3 {
+    width: 42%;
+}
 
+#danica-row-2 {
+    max-height: 610px;
+    width: 100vw;
+    float: left;
+    margin-bottom: 5vw;
+    
+}
+
+#danica-4 {
+    width: 31.2%;
+    margin-right: 5.5%;
+}
+
+#danica-5 {
+    width: 56.3%;
+}
+
+#danica-row-3 {
+    max-height: 610px;
+    width: 100vw;
+    float: left;
+    margin-bottom: 5vw;
+}
+
+#danica-6 {
+    width: 55.6%;
+    margin-right: 5%;
+}
+
+#danica-7 {
+    width: 31.3%;
+}
+
+#danica-8 {
+    width: 25.6%;
+    margin-right: 5%;
+}
+
+#danica-9 {
+    width: 61.4%
+}
+
+/*CLOSING*/
+
+#closing {
+    font-size: 1.5em;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.future-vids {
+    margin: 50px 0 50px 0;
+    height: 50vh;
+}
+
+#CTA a {
+    text-decoration: none;
+    
+}
+
+#credits p {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+#credits {
+    margin-top: 30vh;
+    margin-bottom: 100px;
+}
+
+#footer {
+    text-align: center;
+    font-size: .75em;
+    margin-top: 200px;
+    padding-bottom: 50px;
+}
+
+#footer a {
+    text-decoration: none;
+    color: #929feb;
+}
