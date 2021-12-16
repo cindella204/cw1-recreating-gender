@@ -215,6 +215,16 @@ body {
     width: 61.4%
 }
 
+#jean-paul-media {
+    text-align: center;
+    padding: 100px 25px 100px 25px;
+    clear: both;
+}
+
+#jp-vid {
+    width: 75vw;
+}
+
 /*CLOSING*/
 
 #closing {
@@ -234,14 +244,8 @@ body {
     
 }
 
-#credits p {
-    margin-bottom: 5px;
-    margin-top: 5px;
-}
-
-#credits {
+#acknowledgements {
     margin-top: 30vh;
-    margin-bottom: 100px;
 }
 
 #footer {
