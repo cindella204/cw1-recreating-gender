@@ -106,6 +106,7 @@ body {
 .artist-intro {
     max-width: 1500px;
     margin: auto;
+    float: none;
 }
 
 .main-profile-img {
@@ -121,6 +122,7 @@ body {
     padding-left: 10vw;
     font-size: 1.25em;
     line-height: 1em;
+    display: block;
 }
 
 
@@ -139,6 +141,23 @@ body {
 #graeson-media {
     padding: 100px 25px 100px 25px;
     clear: both;
+    background-image: url(assets/graeson/media-bg-texture.png);
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 100px;
+}
+
+
+.graeson-row-1 {
+    height: 45vw;
+    margin: 0px 1.5vw 5vw 3vw;
+}
+
+.graeson-row-2 {
+    height: 40vw;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    margin-bottom: 5vh;
 }
 
 #danica-media {
@@ -153,7 +172,6 @@ body {
 #danica-row-1 {
     max-height: 610px;
     width: 100vw;
-    float: left;
     margin-bottom: 5vw;
 }
 
@@ -176,7 +194,6 @@ body {
 #danica-row-2 {
     max-height: 610px;
     width: 100vw;
-    float: left;
     margin-bottom: 5vw;
     
 }
@@ -193,7 +210,6 @@ body {
 #danica-row-3 {
     max-height: 610px;
     width: 100vw;
-    float: left;
     margin-bottom: 5vw;
 }
 
@@ -204,6 +220,12 @@ body {
 
 #danica-7 {
     width: 31.3%;
+}
+
+#danica-row-4 {
+    max-height: 610px;
+    width: 100vw;
+    margin-bottom: 5vw;
 }
 
 #danica-8 {
@@ -234,9 +256,11 @@ body {
     margin-right: 15%;
 }
 
+
+
 .future-vids {
-    margin: 50px 0 50px 0;
-    height: 50vh;
+    margin: 50px 10px 50px 10px;
+    width: 20vw;
 }
 
 #CTA a {
